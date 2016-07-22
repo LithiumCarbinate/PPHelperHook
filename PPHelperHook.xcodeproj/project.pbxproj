@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3983D5551D408D50007D323B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983D5541D408D50007D323B /* AppDelegate.m */; };
+		3983D5581D408D50007D323B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983D5571D408D50007D323B /* main.m */; };
+		3983D55B1D408D50007D323B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983D55A1D408D50007D323B /* ViewController.m */; };
+		3983D55D1D408D50007D323B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3983D55C1D408D50007D323B /* Assets.xcassets */; };
+		3983D5601D408D50007D323B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3983D55E1D408D50007D323B /* Main.storyboard */; };
+		3983D56B1D408D55007D323B /* PPHelperHookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983D56A1D408D55007D323B /* PPHelperHookTests.m */; };
+		3983D5761D408D55007D323B /* PPHelperHookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983D5751D408D55007D323B /* PPHelperHookUITests.m */; };
+		3983D5871D409D90007D323B /* AppInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983D5861D409D90007D323B /* AppInfoModel.m */; };
+		39B22CA41D40E35E001110FB /* ApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B22CA31D40E35E001110FB /* ApiClient.m */; };
+		39B22CE81D41C483001110FB /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B22CE71D41C483001110FB /* Error.m */; };
+		E1CDE32786D7C0F38B9847E1 /* libPods-PPHelperHook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01754317A339282BF5CB0D05 /* libPods-PPHelperHook.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3983D5671D408D55007D323B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3983D5481D408D50007D323B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3983D54F1D408D50007D323B;
+			remoteInfo = PPHelperHook;
+		};
+		3983D5721D408D55007D323B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3983D5481D408D50007D323B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3983D54F1D408D50007D323B;
+			remoteInfo = PPHelperHook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01754317A339282BF5CB0D05 /* libPods-PPHelperHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PPHelperHook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983D5501D408D50007D323B /* PPHelperHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPHelperHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983D5531D408D50007D323B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PPHelperHook/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		3983D5541D408D50007D323B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PPHelperHook/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		3983D5571D408D50007D323B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3983D5591D408D50007D323B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		3983D55A1D408D50007D323B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		3983D55C1D408D50007D323B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3983D55F1D408D50007D323B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3983D5611D408D50007D323B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3983D5661D408D55007D323B /* PPHelperHookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPHelperHookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983D56A1D408D55007D323B /* PPHelperHookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHelperHookTests.m; sourceTree = "<group>"; };
+		3983D56C1D408D55007D323B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3983D5711D408D55007D323B /* PPHelperHookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPHelperHookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983D5751D408D55007D323B /* PPHelperHookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHelperHookUITests.m; sourceTree = "<group>"; };
+		3983D5771D408D55007D323B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3983D5851D409D90007D323B /* AppInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppInfoModel.h; path = ../AppInfoModel.h; sourceTree = "<group>"; };
+		3983D5861D409D90007D323B /* AppInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppInfoModel.m; path = ../AppInfoModel.m; sourceTree = "<group>"; };
+		39B22CA21D40E35E001110FB /* ApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiClient.h; path = ../ApiClient.h; sourceTree = "<group>"; };
+		39B22CA31D40E35E001110FB /* ApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiClient.m; path = ../ApiClient.m; sourceTree = "<group>"; };
+		39B22CE41D41BD37001110FB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		39B22CE51D41C06A001110FB /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		39B22CE61D41C483001110FB /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		39B22CE71D41C483001110FB /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
+		5B632A84EE22785551AB6096 /* Pods-PPHelperHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPHelperHook.release.xcconfig"; path = "Pods/Target Support Files/Pods-PPHelperHook/Pods-PPHelperHook.release.xcconfig"; sourceTree = "<group>"; };
+		7485B52E2ACC6C83FDFDC9CB /* Pods-PPHelperHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPHelperHook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PPHelperHook/Pods-PPHelperHook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3983D54D1D408D50007D323B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CDE32786D7C0F38B9847E1 /* libPods-PPHelperHook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983D5631D408D55007D323B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983D56E1D408D55007D323B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3983D5471D408D50007D323B = {
+			isa = PBXGroup;
+			children = (
+				3983D5521D408D50007D323B /* PPHelperHook */,
+				3983D5691D408D55007D323B /* PPHelperHookTests */,
+				3983D5741D408D55007D323B /* PPHelperHookUITests */,
+				3983D5511D408D50007D323B /* Products */,
+				E679C206DF293FA56236E8D5 /* Pods */,
+				79C19E78AE2C8FEDE80F3944 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3983D5511D408D50007D323B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3983D5501D408D50007D323B /* PPHelperHook.app */,
+				3983D5661D408D55007D323B /* PPHelperHookTests.xctest */,
+				3983D5711D408D55007D323B /* PPHelperHookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3983D5521D408D50007D323B /* PPHelperHook */ = {
+			isa = PBXGroup;
+			children = (
+				39B22CA51D41BAD7001110FB /* AppDelegate */,
+				39B22CAE1D41BAD7001110FB /* Scenes */,
+				39B22CA61D41BAD7001110FB /* General */,
+				39B22CAA1D41BAD7001110FB /* Helpers */,
+				39B22CAC1D41BAD7001110FB /* Models */,
+				39B22CAB1D41BAD7001110FB /* Macro */,
+				39B22CAD1D41BAD7001110FB /* Resources */,
+				39B22CB01D41BAD7001110FB /* Vendors */,
+				3983D55C1D408D50007D323B /* Assets.xcassets */,
+				3983D55E1D408D50007D323B /* Main.storyboard */,
+				3983D5611D408D50007D323B /* Info.plist */,
+				3983D5561D408D50007D323B /* Supporting Files */,
+			);
+			path = PPHelperHook;
+			sourceTree = "<group>";
+		};
+		3983D5561D408D50007D323B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3983D5571D408D50007D323B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3983D5691D408D55007D323B /* PPHelperHookTests */ = {
+			isa = PBXGroup;
+			children = (
+				3983D56A1D408D55007D323B /* PPHelperHookTests.m */,
+				3983D56C1D408D55007D323B /* Info.plist */,
+			);
+			path = PPHelperHookTests;
+			sourceTree = "<group>";
+		};
+		3983D5741D408D55007D323B /* PPHelperHookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3983D5751D408D55007D323B /* PPHelperHookUITests.m */,
+				3983D5771D408D55007D323B /* Info.plist */,
+			);
+			path = PPHelperHookUITests;
+			sourceTree = "<group>";
+		};
+		39B22CA51D41BAD7001110FB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3983D5531D408D50007D323B /* AppDelegate.h */,
+				3983D5541D408D50007D323B /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		39B22CA61D41BAD7001110FB /* General */ = {
+			isa = PBXGroup;
+			children = (
+				39B22CA71D41BAD7001110FB /* Categories */,
+				39B22CA81D41BAD7001110FB /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		39B22CA71D41BAD7001110FB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		39B22CA81D41BAD7001110FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39B22CA91D41BAD7001110FB /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39B22CA91D41BAD7001110FB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		39B22CAA1D41BAD7001110FB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				39B22CA21D40E35E001110FB /* ApiClient.h */,
+				39B22CA31D40E35E001110FB /* ApiClient.m */,
+				39B22CE61D41C483001110FB /* Error.h */,
+				39B22CE71D41C483001110FB /* Error.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		39B22CAB1D41BAD7001110FB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				39B22CE41D41BD37001110FB /* PrefixHeader.pch */,
+				39B22CE51D41C06A001110FB /* Macro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		39B22CAC1D41BAD7001110FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3983D5851D409D90007D323B /* AppInfoModel.h */,
+				3983D5861D409D90007D323B /* AppInfoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39B22CAD1D41BAD7001110FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39B22CAE1D41BAD7001110FB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				39B22CAF1D41BAD7001110FB /* ViewController */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		39B22CAF1D41BAD7001110FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3983D5591D408D50007D323B /* ViewController.h */,
+				3983D55A1D408D50007D323B /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		39B22CB01D41BAD7001110FB /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		79C19E78AE2C8FEDE80F3944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01754317A339282BF5CB0D05 /* libPods-PPHelperHook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E679C206DF293FA56236E8D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7485B52E2ACC6C83FDFDC9CB /* Pods-PPHelperHook.debug.xcconfig */,
+				5B632A84EE22785551AB6096 /* Pods-PPHelperHook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3983D54F1D408D50007D323B /* PPHelperHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3983D57A1D408D55007D323B /* Build configuration list for PBXNativeTarget "PPHelperHook" */;
+			buildPhases = (
+				C4338999CD9DAF95C8A230C3 /* [CP] Check Pods Manifest.lock */,
+				3983D54C1D408D50007D323B /* Sources */,
+				3983D54D1D408D50007D323B /* Frameworks */,
+				3983D54E1D408D50007D323B /* Resources */,
+				4A72123B715BC18FA9646594 /* [CP] Embed Pods Frameworks */,
+				2DF21E6B4C5E7D4C3D0C8DEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPHelperHook;
+			productName = PPHelperHook;
+			productReference = 3983D5501D408D50007D323B /* PPHelperHook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3983D5651D408D55007D323B /* PPHelperHookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3983D57D1D408D55007D323B /* Build configuration list for PBXNativeTarget "PPHelperHookTests" */;
+			buildPhases = (
+				3983D5621D408D55007D323B /* Sources */,
+				3983D5631D408D55007D323B /* Frameworks */,
+				3983D5641D408D55007D323B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3983D5681D408D55007D323B /* PBXTargetDependency */,
+			);
+			name = PPHelperHookTests;
+			productName = PPHelperHookTests;
+			productReference = 3983D5661D408D55007D323B /* PPHelperHookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3983D5701D408D55007D323B /* PPHelperHookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3983D5801D408D55007D323B /* Build configuration list for PBXNativeTarget "PPHelperHookUITests" */;
+			buildPhases = (
+				3983D56D1D408D55007D323B /* Sources */,
+				3983D56E1D408D55007D323B /* Frameworks */,
+				3983D56F1D408D55007D323B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3983D5731D408D55007D323B /* PBXTargetDependency */,
+			);
+			name = PPHelperHookUITests;
+			productName = PPHelperHookUITests;
+			productReference = 3983D5711D408D55007D323B /* PPHelperHookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3983D5481D408D50007D323B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = leelinux;
+				TargetAttributes = {
+					3983D54F1D408D50007D323B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3983D5651D408D55007D323B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3983D54F1D408D50007D323B;
+					};
+					3983D5701D408D55007D323B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3983D54F1D408D50007D323B;
+					};
+				};
+			};
+			buildConfigurationList = 3983D54B1D408D50007D323B /* Build configuration list for PBXProject "PPHelperHook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3983D5471D408D50007D323B;
+			productRefGroup = 3983D5511D408D50007D323B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3983D54F1D408D50007D323B /* PPHelperHook */,
+				3983D5651D408D55007D323B /* PPHelperHookTests */,
+				3983D5701D408D55007D323B /* PPHelperHookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3983D54E1D408D50007D323B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983D55D1D408D50007D323B /* Assets.xcassets in Resources */,
+				3983D5601D408D50007D323B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983D5641D408D55007D323B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983D56F1D408D55007D323B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF21E6B4C5E7D4C3D0C8DEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PPHelperHook/Pods-PPHelperHook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A72123B715BC18FA9646594 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PPHelperHook/Pods-PPHelperHook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4338999CD9DAF95C8A230C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3983D54C1D408D50007D323B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B22CE81D41C483001110FB /* Error.m in Sources */,
+				3983D55B1D408D50007D323B /* ViewController.m in Sources */,
+				3983D5581D408D50007D323B /* main.m in Sources */,
+				3983D5551D408D50007D323B /* AppDelegate.m in Sources */,
+				39B22CA41D40E35E001110FB /* ApiClient.m in Sources */,
+				3983D5871D409D90007D323B /* AppInfoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983D5621D408D55007D323B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983D56B1D408D55007D323B /* PPHelperHookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983D56D1D408D55007D323B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983D5761D408D55007D323B /* PPHelperHookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3983D5681D408D55007D323B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3983D54F1D408D50007D323B /* PPHelperHook */;
+			targetProxy = 3983D5671D408D55007D323B /* PBXContainerItemProxy */;
+		};
+		3983D5731D408D55007D323B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3983D54F1D408D50007D323B /* PPHelperHook */;
+			targetProxy = 3983D5721D408D55007D323B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3983D55E1D408D50007D323B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3983D55F1D408D50007D323B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3983D5781D408D55007D323B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PPHelperHook/Macro/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3983D5791D408D55007D323B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PPHelperHook/Macro/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3983D57B1D408D55007D323B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7485B52E2ACC6C83FDFDC9CB /* Pods-PPHelperHook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPHelperHook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.com.PPHelperHook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3983D57C1D408D55007D323B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B632A84EE22785551AB6096 /* Pods-PPHelperHook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPHelperHook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.com.PPHelperHook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3983D57E1D408D55007D323B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPHelperHookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.com.PPHelperHookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPHelperHook.app/Contents/MacOS/PPHelperHook";
+			};
+			name = Debug;
+		};
+		3983D57F1D408D55007D323B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPHelperHookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.com.PPHelperHookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPHelperHook.app/Contents/MacOS/PPHelperHook";
+			};
+			name = Release;
+		};
+		3983D5811D408D55007D323B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPHelperHookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.com.PPHelperHookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PPHelperHook;
+			};
+			name = Debug;
+		};
+		3983D5821D408D55007D323B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPHelperHookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.com.PPHelperHookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PPHelperHook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3983D54B1D408D50007D323B /* Build configuration list for PBXProject "PPHelperHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983D5781D408D55007D323B /* Debug */,
+				3983D5791D408D55007D323B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3983D57A1D408D55007D323B /* Build configuration list for PBXNativeTarget "PPHelperHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983D57B1D408D55007D323B /* Debug */,
+				3983D57C1D408D55007D323B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3983D57D1D408D55007D323B /* Build configuration list for PBXNativeTarget "PPHelperHookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983D57E1D408D55007D323B /* Debug */,
+				3983D57F1D408D55007D323B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3983D5801D408D55007D323B /* Build configuration list for PBXNativeTarget "PPHelperHookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983D5811D408D55007D323B /* Debug */,
+				3983D5821D408D55007D323B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3983D5481D408D50007D323B /* Project object */;
+}

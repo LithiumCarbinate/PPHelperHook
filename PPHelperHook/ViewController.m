@@ -8,18 +8,33 @@
 
 #import "ViewController.h"
 
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
 
-    // Do any additional setup after loading the view.
+}
+
+- (IBAction)postButtonAction:(NSButtonCell *)sender {
+
+    [[ApiClient sharedClient] postWithPageIndex:1 completion:^(id obj, Error *error) {
+
+    }];
+    
+    
 }
 
 - (void)setRepresentedObject:(id)representedObject {
+
     [super setRepresentedObject:representedObject];
 
-    // Update the view, if already loaded.
+    
+
 }
+
+
 
 @end
